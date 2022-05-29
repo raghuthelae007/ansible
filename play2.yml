@@ -1,0 +1,7 @@
+-
+  name: updating all packages
+  hosts: all_nodes
+  tasks:
+    - name: yum update
+      yum:
+

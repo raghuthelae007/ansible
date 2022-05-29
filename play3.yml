@@ -1,0 +1,7 @@
+-
+    name: 'Run fdiskcommand'
+    hosts: all
+    tasks:
+        -
+            name: 'testing fdisk'
+            command: fdisk -l

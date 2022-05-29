@@ -1,0 +1,8 @@
+-
+    name: checking architecture
+    hosts: all_nodes
+    tasks:
+        -
+            name: check architectue 
+            command: 'uname -a'
+ 
