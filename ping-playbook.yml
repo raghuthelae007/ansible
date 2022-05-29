@@ -1,0 +1,6 @@
+-
+  name: testconnectvity
+  hosts: all_nodes
+  tasks:
+    - name: ping
+      ping:
